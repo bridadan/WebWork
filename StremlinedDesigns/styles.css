@@ -1,0 +1,310 @@
+/*Element Styling*/
+a:link
+{
+  color: #1177e9;
+  text-decoration: underline;
+}
+
+a:visited
+{
+  color: #50a2ff;
+}
+
+a:hover, a:visited:hover
+{
+  color: #a3c4e9;
+}
+
+body
+{
+  background: #ecf1f9;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  color: #808080;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+h1
+{
+  height: 1em;
+  margin: 0px;
+  padding: 0px;
+  color: #5d9ee9;
+  font-size: 22px;
+  font-family: lucida sans, sans-serif;
+  font-weight: bold;
+}
+
+h2
+{
+  height: 1em;
+  margin: 0px 0px 5px 0px;
+  padding: 0px;
+  color: #666666;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+hr
+{
+  height: 2px;
+  margin: 3px;
+  padding: 0px;
+  color: #595959;
+  background-color: #595959;
+  border: 0px;
+}
+
+p
+{
+  margin: 0px;
+  padding: 5px 0px 0px 0px;
+  text-indent: 2em;
+}
+
+table
+{
+  margin: 0px;
+  padding: 0px;
+  border-collapse: collapse;
+  border-spacing: 5px;
+}
+
+/*Classes*/
+/*General Clases*/
+
+.smallspace
+{
+  margin: 0px;
+  padding: 5px 0px 0px 0px;
+}
+
+.box
+{
+  margin: 0;
+  padding: 5px;
+  background: #ecf1f9;
+  border: 1px solid #e1e6ed;
+}
+
+.headertext
+{
+  margin: 0px;
+  padding: 0px;
+  color: #666666;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.spacedtext
+{
+  margin: 0px;
+  padding: 5px 0px 5px 0px;
+  text-align: center;
+}
+
+.center
+{
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+.noborder
+{
+  border: 0px;
+}
+
+.border
+{
+  border: 1px solid #000000;
+}
+
+/*Special Classes*/
+
+.portfolioboxleft
+{
+  float: left;
+  width: 228px;
+  margin: 5px 5px 0px 0px;
+  padding: 5px;
+  text-align: left;
+  background: #ecf1f9;
+  border: 1px solid #e1e6ed;
+}
+
+.portfolioboxright
+{
+  float: right;
+  width: 228px;
+  margin: 5px 0px 0px 0px;
+  padding: 5px;
+  text-align: left;
+  background: #ecf1f9;
+  border: 1px solid #e1e6ed;
+}
+
+.portfoliotitle
+{
+  margin: 0px 0px 5px 0px;
+  padding: 0px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.portfolioimage, .portfolioimage:visited
+{
+  display: block;
+  width: 216px;
+  height: 122px;
+  margin: 0px 0px 5px 0px;
+  padding: 5px;
+  background: #a3c4e9;
+  border: 1px solid black;
+}
+
+.portfolioimage:hover, .portfolioimage:visited:hover
+{
+  background: #ffffff;
+}
+
+/*Id'd Elements*/
+
+#listcontainer
+{
+  width: 730px;
+  height: 210px;
+  margin: 10px 0px 5px 0px;
+  padding: 0px;
+}
+
+#listleft
+{
+  width: 230px;
+  height: 210px;
+  float: left;
+  margin-right: 5px;
+  padding: 0px;
+  background: none;
+}
+
+#listimage
+{
+  width: 260px;
+  height: 210px;
+  float: left;
+  margin-right: 5px;
+  padding: 0px;
+  background: #ffffff url('images/reliable-web-design.jpg');
+}
+
+#listright
+{
+  width: 230px;
+  height: 210px;
+  float: right;
+  margin: 0px;
+  padding: 0px;  
+  background: none;
+}
+
+
+#boxcontainer
+{
+  width: 730px;
+  height: 130px;
+  margin: 0px;
+  padding: 0px;
+  color: #ffffff;
+  font-family: lucida sans, sans-serif;
+  font-size: 12px;
+}
+
+#effective
+{
+  width: 155px;
+  height: 120px;
+  float: left;
+  margin-right: 5px;
+  padding: 5px 5px 5px 80px;
+  background: #b3b3b3 url('images/effective-bg.png');
+}
+
+#reliable
+{
+  width: 155px;
+  height: 120px;
+  float: left;
+  margin-right: 5px;
+  padding: 5px 5px 5px 80px;
+  background: #b3b3b3 url('images/reliable-bg.png');
+}
+
+#powerful
+{
+  width: 155px;
+  height: 120px;
+  float: right;
+  margin: 0px;
+  padding: 5px 5px 5px 80px;  
+  background: #b3b3b3 url('images/powerful-bg.png');
+}
+
+#container
+{
+  width: 770px;
+  margin: 10px auto 0px auto;
+  padding: 0px;
+  background: none;
+}
+
+#top
+{
+  height: 50px;
+  margin: 0px;
+  padding: 0px 15px 0px 15px;
+  text-align: center;
+  background: #ecf1f9 url('images/bodytop.png');
+}
+
+#wrapper
+{
+  margin: 0px;
+  padding: 0px 20px 0px 20px;
+  text-align: left;
+  background: #ecf1f9 url('images/bodytile.png') repeat-y;
+}
+
+#content
+{
+  overflow: auto;
+  width: 730px;
+  margin: 0px;
+  padding: 0px;
+  background: none;
+}
+
+#footer
+{
+  width: 730px;
+  margin-top: 5px;
+  padding: 0px 0px 0px 0px;
+  text-align: center;
+  font-size: 12px;
+  color: #808080;
+  background: none;
+}
+
+#bottom
+{
+  width: 770px;
+  height: 20px;
+  margin: 0px;
+  background: transparent url('images/bottom.png');
+  background-position: bottom center;
+}
+  
