@@ -1,0 +1,208 @@
+body  {
+   padding: 0px;
+   margin: 0px;
+   text-align: center;
+   font-family: Helvetica, Arial , 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+   background-color: #ffffff;
+}
+
+table  {
+   margin: 0px;
+   padding: 0px;
+   border-collapse: separate;
+   border-spacing: 5px 0px;
+}
+
+#bg  {
+   width: 100%;
+   min-width: 1024px;
+   height: 100%;
+   position: fixed;
+   _position: absolute;
+   top: 0;
+   _top: expression(eval(document.body.scrollTop));
+   left: 0;
+   margin: 0px;
+   padding: 0px;
+   z-index: -50;
+}
+
+#topbar  {
+   display: block;
+   width: 100%;
+   min-width: 1024px;
+   height: 26px;
+   text-align: center;
+   background-color: #3860a6;
+}
+
+#topbarcontent  {
+   margin: 0px auto;
+   width: 1024px;
+   text-align: right;
+}
+
+#login
+{
+   margin-left: auto;
+   margin-right: 0px;
+   border: 0px;
+}
+
+#container  {
+   margin: 0px auto;
+   width: 1024px;
+   text-align: center;
+}
+
+#logocontainer
+{
+   float: left;
+   padding: 38px 0px 0px 46px;
+   text-align: left;
+}
+
+#logo
+{
+   float: left;
+}
+
+#cityselector
+{
+   float: left;
+   margin-top: 48px;
+   margin-left: 10px;
+}
+
+#navbox  {
+   float: right;
+   margin: 0px;
+   padding: 0px;
+   text-align: right;
+}
+
+#nav
+{
+   margin: 0px;
+   padding: 0px;
+   height: 45px;
+   background: none;
+}
+
+#nav ul
+{
+   margin: 0px;
+   padding: 0px;
+   float: right;
+}
+
+#nav li
+{
+   display: inline;
+   margin: 0px;
+   padding: 0px;
+}
+
+#nav #home:link, #nav #home:visited
+{
+   float: left;
+   width: 72px;
+   height: 45px;
+   background-image: url('images/home-trans.png');
+}
+
+#nav #home:hover, #nav home:visited:hover
+{
+   background-position: 72px 0px;
+}
+
+#nav #services:link, #nav #services:visited
+{
+   float: left;
+   margin-left: 19px;
+   width: 93px;
+   height: 45px;
+   background-image: url('images/services-trans.png');
+}
+
+#nav #services:hover, #nav #services:visited:hover
+{
+   background-position: 93px 0px;
+}
+
+#nav #getfeatured:link, #nav #getfeatured:visited
+{
+   float: left;
+   margin-left: 19px;
+   width: 136px;
+   height: 45px;
+   background-image: url('images/getfeatured-trans.png');
+}
+
+#nav #getfeatured:hover, #nav #getfeatured:visited:hover
+{
+   background-position: 136px 0px;
+}
+
+#nav #contact:link, #nav #contact:visited
+{
+   float: left;
+   margin-left: 19px;
+   width: 88px;
+   height: 45px;
+   background-image: url('images/contact-trans.png');
+}
+
+#nav #contact:hover, #nav #contact:visited:hover
+{
+   background-position: 88px 0px;
+}
+
+#city
+{
+   background-color: #cccccc;
+   font-size: 25px;
+}
+
+#clear
+{
+   clear: both;
+}
+
+#middlecontent
+{
+   margin: 12px auto;
+   padding: 0px;
+   width: 932px;
+   height: 900px;
+   opacity: 0.67;
+   filter: alpha(opacity=67);
+   background-color: #6cbaa0;
+}
+
+#bottombar  {
+   position: fixed;
+   _position: absolute;
+   bottom: 0px;
+   left: 0px;
+   _top: expression(document.body.scrollTop+document.body.clientHeight-this.clientHeight);
+   width: 100%;
+   height: 53px;
+   background-image: url('images/bottombar-trans.png');
+}
+
+#bottombarcontent   {
+   margin: 0px auto;
+   width: 1024px;
+   height: 53px;
+   border: 0px;
+   text-align: right;
+   color: #ffffff;
+}
+
+#followus
+{
+   margin-top: 26px;
+}
+
+

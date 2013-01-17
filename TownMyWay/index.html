@@ -1,0 +1,83 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+   <head>
+   <meta http-equiv="content-type" content="text/html; charset=windows-1250">
+   <title>TownMyWay</title>
+   <link href="styles.css" rel="stylesheet" type="text/css" />
+   <!--[if lt IE 7]>
+   <script src="ie7/IE7.js" type="text/javascript">
+   </script>
+   <![endif]-->
+   <script type="text/javascript">
+   var usernamecleared = 0;
+   var passwordcleared = 0;
+   function clearbox(eid)
+   {
+      
+     if (eid == "username")
+     {
+        if (usernamecleared == 0)
+        {
+           document.getElementById("" + eid).value = "";
+           usernamecleared = 1;
+        }
+     }
+     else if (eid == "password")
+     {
+        if (passwordcleared == 0)
+        {
+           document.getElementById(eid).value = "";
+           passwordcleared = 1;
+        }
+     }
+     else
+     {
+        alert("Not a valid field to clear");
+     }
+   }
+   </script>
+   </head>
+   <body>
+      <img src="images/background.jpg" id="bg" />
+      <div id="topbar">
+         <div id="topbarcontent">
+            <table id="login">
+               <tr>
+                  <th>Business Login</th>
+                  <td><input type="text" id="username" name="username" value="Username" onclick="clearbox('username')" /></td>
+                  <td><input type="password" id="password" name="password" value="password" onclick="clearbox('password')" /></td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div id="container">
+         <div id="logocontainer">
+            <img src="images/logo-trans.png" id="logo" title="TownMyWay" alt="TownMyWay" />
+            <div id="cityselector">
+               City Selector:<br />
+              <select name="city" id="city">
+                 <option>Orion</option>
+              </select>
+            </div>
+         </div>
+         <div id="navbox">
+            <div id="nav">
+               <ul>
+                  <li><a href="#" id="home"></a></li>
+                  <li><a href="#" id="services"></a></li>
+                  <li><a href="#" id="getfeatured"></a></li>
+                  <li><a href="#" id="contact"></a></li>
+               </ul>
+            </div>
+         </div>
+         <div id="clear"></div>
+        <div id="middlecontent">
+        </div>
+      </div>
+      <div id="bottombar">
+         <div id="bottombarcontent">
+            <div id="followus">Follow Us</div>
+         </div>
+      </div>
+  </body>
+</html>
